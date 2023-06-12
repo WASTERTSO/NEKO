@@ -120,7 +120,7 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://te.legra.ph/file/ff2719cd05f97dfd7392a.jpg)」────
+────「 [{}](https://graph.org/file/693fdb0ab9e4821cf67e2.jpg)」────
 *𝐻𝑒𝑦 ! {},*
 *𝐼'𝑚 𝐺𝑟𝑜𝑢𝑝 𝑀𝑎𝑛𝑎𝑔𝑒𝑟 𝐵𝑜𝑡!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
