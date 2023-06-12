@@ -113,10 +113,10 @@ START_MSG = "𝐼'𝑚 𝐴𝑤𝑎𝑘𝑒 𝐴𝑙𝑟𝑒𝑎𝑑𝑦!\n<b>�
 
 NEKO_STICKERS = (
     "CAACAgIAAx0CbjsyBAABAhRJZIb6VU_BgeytWUqVFjTWk9CGNngAAiggAAIlpglL4WoKTnvr4VUvBA",
-    "  ",
-    "  ",
-    "  ",
-    "  ",
+    "CAACAgIAAx0CbjsyBAABAhRJZIb6VU_BgeytWUqVFjTWk9CGNngAAiggAAIlpglL4WoKTnvr4VUvBA",
+    "CAACAgIAAx0CbjsyBAABAhRJZIb6VU_BgeytWUqVFjTWk9CGNngAAiggAAIlpglL4WoKTnvr4VUvBA",
+    "CAACAgIAAx0CbjsyBAABAhRJZIb6VU_BgeytWUqVFjTWk9CGNngAAiggAAIlpglL4WoKTnvr4VUvBA",
+    "CAACAgIAAx0CbjsyBAABAhRJZIb6VU_BgeytWUqVFjTWk9CGNngAAiggAAIlpglL4WoKTnvr4VUvBA",
 )
 
 PM_START_TEXT = """
