@@ -108,8 +108,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
-START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
+HELP_MSG = "𝐶𝑙𝑖𝑐𝑘 𝑇𝒉𝑒 𝐵𝑢𝑡𝑡𝑜𝑛 𝐵𝑒𝑙𝑜𝑤 𝑇𝑜 𝐺𝑒𝑡 𝐻𝑒𝑙𝑝 𝑀𝑒𝑛𝑢 𝐼𝑛 𝑌𝑜𝑢𝑟 𝐷𝑚."
+START_MSG = "𝐼'𝑚 𝐴𝑤𝑎𝑘𝑒 𝐴𝑙𝑟𝑒𝑎𝑑𝑦!\n<b>𝐻𝑎𝑣𝑒𝑛'𝑡 𝑆𝑙𝑒𝑝𝑡 𝑆𝑖𝑛𝑐𝑒:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
     "CAACAgIAAx0CbjsyBAABAhRJZIb6VU_BgeytWUqVFjTWk9CGNngAAiggAAIlpglL4WoKTnvr4VUvBA",
@@ -154,13 +154,13 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-*Main* commands available:
-➛ /help: PM's you this message.
-➛ /help <module name>: PM's you info about that module.
-➛ /donate: information on how to donate!
-➛ /settings:
-   ➛ in PM: will send you your settings for all supported modules.
-   ➛ in a group: will redirect you to pm, with all that chat's settings.
+*𝑀𝑎𝑖𝑛* 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠 𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒:
+/help: 𝑃𝑚'𝑠 𝑌𝑜𝑢 𝑇𝒉𝑖𝑠 𝑀𝑒𝑠𝑠𝑎𝑔𝑒.
+/help <𝑀𝑜𝑑𝑢𝑙𝑒 𝑁𝑎𝑚𝑒>: 𝑃𝑚'𝑠 𝑌𝑜𝑢 𝐼𝑛𝑓𝑜 𝐴𝑏𝑜𝑢𝑡 𝑇𝒉𝑎𝑡 𝑀𝑜𝑑𝑢𝑙𝑒.
+/donate: 𝐼𝑛𝑓𝑜𝑟𝑚𝑎𝑡𝑖𝑜𝑛 𝑂𝑛 𝐻𝑜𝑤 𝑇𝑜 𝐷𝑜𝑛𝑎𝑡𝑒!
+/settings:
+𝐼𝑛 𝑃𝑚: 𝑊𝑖𝑙𝑙 𝑆𝑒𝑛𝑑 𝑌𝑜𝑢 𝑌𝑜𝑢𝑟𝑠 𝑆𝑒𝑡𝑡𝑖𝑛𝑔𝑠 𝐹𝑜𝑟 𝐴𝑙𝑙 𝑆𝑢𝑝𝑝𝑜𝑟𝑡𝑒𝑑 𝑀𝑜𝑑𝑢𝑙𝑒.
+𝐼𝑛 𝐴 𝐺𝑟𝑜𝑢𝑝: 𝑊𝑖𝑙𝑙 𝑅𝑒𝑑𝑖𝑟𝑒𝑐𝑡 𝑌𝑜𝑢 𝑇𝑜 𝑃𝑚, 𝑊𝑖𝑡𝒉 𝐴𝑙𝑙 𝑇𝒉𝑎𝑡 𝐶𝒉𝑎𝑡𝑠 𝑆𝑒𝑡𝑡𝑖𝑛𝑔𝑠.
 """
 
 GROUP_START_IMG = (
@@ -171,7 +171,7 @@ GROUP_START_IMG = (
     "https://te.legra.ph/file/c2526c05d65fd2fbfa58b.jpg",
 )
 
-DONATE_STRING = """❂ I'm Free for Everyone ❂"""
+DONATE_STRING = """𝑌𝑜𝑢𝑟 𝑊𝑖𝑠𝒉"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -302,7 +302,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             random.choice(GROUP_START_IMG),
-            caption=f"<b>Yes, Master I'm alive!\nHaven't sleep since</b>: <code>{uptime}</code>",
+            caption=f"<b>𝑌𝑒𝑠, 𝑀𝑎𝑠𝑡𝑒𝑟 𝐼'𝑚 𝐴𝑙𝑖𝑣𝑒!\n𝐻𝑎𝑣𝑒𝑛'𝑡 𝑆𝑙𝑒𝑒𝑝 𝑆𝑖𝑛𝑐𝑒</b>: <code>{uptime}</code>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -472,7 +472,7 @@ def get_help(update: Update, context: CallbackContext) -> None:
                 [
                     [
                         InlineKeyboardButton(
-                            text="Open In Private Chat",
+                            text="𝑂𝑝𝑒𝑛 𝐼𝑛 𝑃𝑟𝑖𝑣𝑎𝑡𝑒 𝐶𝒉𝑎𝑡",
                             url=f"t.me/{NEKO_PTB.bot.username}?start=help",
                         )
                     ]
@@ -643,7 +643,7 @@ def get_settings(update: Update, context: CallbackContext) -> None:
         )
 
     else:
-        text = "Click here to check your settings."
+        text = "𝐶𝑙𝑖𝑐𝑘 𝐻𝑒𝑟𝑒 𝑇𝑜 𝐶𝒉𝑒𝑐𝑘 𝑌𝑜𝑢𝑟 𝑆𝑒𝑡𝑡𝑖𝑛𝑔𝑠."
 
 
 def donate(update: Update, context: CallbackContext) -> None:
@@ -655,7 +655,7 @@ def donate(update: Update, context: CallbackContext) -> None:
 
         if OWNER_ID != 5686536025 and DONATION_LINK:
             update.effective_message.reply_text(
-                f"You can also donate to the person currently running me [here]({DONATION_LINK})",
+                f"𝑌𝑜𝑢 𝐶𝑎𝑛 𝐴𝑙𝑠𝑜 𝐷𝑜𝑛𝑎𝑡𝑒 𝑇𝑜 𝑇𝒉𝑒 𝑃𝑒𝑟𝑠𝑜𝑛 𝐶𝑢𝑟𝑟𝑒𝑛𝑡𝑙𝑦 𝑅𝑢𝑛𝑛𝑖𝑔 𝑀𝑒 [here]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
             )
 
@@ -671,13 +671,13 @@ def donate(update: Update, context: CallbackContext) -> None:
             )
 
             update.effective_message.reply_text(
-                text="I'm free for everyone❤️\njust donate by subs channel, Don't forget to join the support group.",
+                text="𝐼'𝑚 𝐹𝑟𝑒𝑒 𝐹𝑜𝑟 𝐸𝑣𝑒𝑟𝑦𝑂𝑛𝑒\n𝐽𝑢𝑠𝑡 𝐷𝑜𝑛𝑎𝑡𝑒 𝐵𝑦 𝑆𝑢𝑏𝑠 𝐶𝒉𝑎𝑛𝑛𝑒𝑙, 𝐷𝑜𝑛'𝑡 𝐹𝑜𝑟𝑔𝑒𝑡 𝑇𝑜 𝐽𝑜𝑖𝑛 𝑆𝑢𝑝𝑝𝑜𝑟𝑡 𝐺𝑟𝑜𝑢𝑝.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
                                 text="𝑈𝑝𝑑𝑎𝑡𝑒𝑠 ❓",
-                                url="https://telegram.dog/Programmer_Updates",
+                                url="https://telegram.dog/tso_Updates",
                             ),
                             InlineKeyboardButton(
                                 text="𝑆𝑢𝑝𝑝𝑜𝑟𝑡 🚑",
@@ -689,7 +689,7 @@ def donate(update: Update, context: CallbackContext) -> None:
             )
         except Unauthorized:
             update.effective_message.reply_text(
-                "Contact me in PM first to get donation information."
+                "𝐶𝑜𝑛𝑡𝑎𝑐𝑡 𝑀𝑒 𝐼𝑛 𝑃𝑚 𝐹𝑖𝑟𝑠𝑡 𝑇𝑜 𝐺𝑒𝑡 𝐷𝑜𝑛𝑎𝑡𝑖𝑜𝑛 𝐼𝑛𝑓𝑜𝑟𝑚𝑎𝑡𝑖𝑜𝑛."
             )
 
 
