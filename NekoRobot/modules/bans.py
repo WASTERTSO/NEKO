@@ -523,7 +523,7 @@ def snipe(update: Update, context: CallbackContext):
             )
 
 
-__mod_name__ = "Bans/Mutes"
+__mod_name__ = "𝐵𝑎𝑛𝑠/𝑚𝑢𝑡𝑒"
 
 __help__ = """
 *User Commands:*
