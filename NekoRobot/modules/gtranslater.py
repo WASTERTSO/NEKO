@@ -94,6 +94,6 @@ TRANSLATE_LANG_HANDLER = DisableAbleCommandHandler(
 NEKO_PTB.add_handler(TRANSLATE_HANDLER)
 NEKO_PTB.add_handler(TRANSLATE_LANG_HANDLER)
 
-__mod_name__ = "Translator"
+__mod_name__ = "𝑇𝑟𝑎𝑛𝑠𝑙𝑎𝑡𝑜𝑟"
 __command_list__ = ["tr", "tl", "lang", "languages"]
 __handlers__ = [TRANSLATE_HANDLER, TRANSLATE_LANG_HANDLER]
