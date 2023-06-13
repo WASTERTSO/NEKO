@@ -31,7 +31,7 @@ from NekoRobot.events import register
 PHOTO = "https://te.legra.ph/file/5cdc460a2ed69abcbee60.gif"
 
 
-@register(pattern=("Welcome"))
+@register(pattern=("fsexcbtrlcome"))
 async def awake(event):
     NEKO = f" ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ᴋɪɴɢᴅᴏᴍ♡︎ ɪ ʜᴏᴘᴇ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍᴀɴʏ ғʀɪᴇɴᴅs ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ"
     BUTTON = [
