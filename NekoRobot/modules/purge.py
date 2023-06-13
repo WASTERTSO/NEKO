@@ -108,6 +108,6 @@ DEL_HANDLER = delete_messages, events.NewMessage(pattern="^[!/]del$")
 tbot.add_event_handler(*PURGE_HANDLER)
 tbot.add_event_handler(*DEL_HANDLER)
 
-__mod_name__ = "Purges"
+__mod_name__ = "𝑃𝑢𝑟𝑔𝑒𝑠"
 __command_list__ = ["del", "purge"]
 __handlers__ = [PURGE_HANDLER, DEL_HANDLER]
