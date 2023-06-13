@@ -31,7 +31,7 @@ __help__ = """
 Make me send a message to a specific chat.
 """
 
-__mod_name__ = "Snipe"
+__mod_name__ = "𝑆𝑛𝑖𝑝𝑒"
 
 SNIPE_HANDLER = CommandHandler(
     "snipe", snipe, pass_args=True, filters=CustomFilters.dev_filter, run_async=True
