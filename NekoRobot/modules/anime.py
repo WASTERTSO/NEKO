@@ -598,7 +598,7 @@ NEKO_PTB.add_handler(KAIZOKU_SEARCH_HANDLER)
 NEKO_PTB.add_handler(KAYO_SEARCH_HANDLER)
 NEKO_PTB.add_handler(UPCOMING_HANDLER)
 
-__mod_name__ = "Anime"
+__mod_name__ = "𝐴𝑛𝑖𝑚𝑒"
 __command_list__ = [
     "anime",
     "manga",
