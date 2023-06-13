@@ -1121,7 +1121,7 @@ NEKO_PTB.add_handler(DEMOTE_HANDLER)
 NEKO_PTB.add_handler(SET_TITLE_HANDLER)
 NEKO_PTB.add_handler(ADMIN_REFRESH_HANDLER)
 
-__mod_name__ = "Admins"
+__mod_name__ = "𝐴𝑑𝑚𝑖𝑛𝑠"
 __command_list__ = [
     "setdesc" "setsticker" "setgpic" "delgpic" "setgtitle" "adminlist",
     "admins",
