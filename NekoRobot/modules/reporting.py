@@ -313,7 +313,7 @@ NEKO_PTB.add_handler(SETTING_HANDLER)
 NEKO_PTB.add_handler(REPORT_HANDLER, REPORT_GROUP)
 NEKO_PTB.add_handler(ADMIN_REPORT_HANDLER, REPORT_GROUP)
 
-__mod_name__ = "Reporting"
+__mod_name__ = "𝑅𝑒𝑝𝑜𝑟𝑡𝑖𝑛𝑔"
 __handlers__ = [
     (REPORT_HANDLER, REPORT_GROUP),
     (ADMIN_REPORT_HANDLER, REPORT_GROUP),
