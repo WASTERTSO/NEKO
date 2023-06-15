@@ -240,7 +240,7 @@ if is_module_loaded(FILENAME):
     def __chat_settings__(chat_id, user_id):
         return build_curr_disabled(chat_id)
 
-    __mod_name__ = "Disabling"
+    __mod_name__ = "𝐷𝑖𝑠𝑎𝑏𝑙𝑖𝑛𝑔"
 
     __help__ = """
 Not everyone wants every feature that the bot offers. Some commands are best \
