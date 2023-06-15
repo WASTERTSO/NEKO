@@ -264,5 +264,5 @@ NEKO_PTB.add_handler(MUTE_HANDLER)
 NEKO_PTB.add_handler(UNMUTE_HANDLER)
 NEKO_PTB.add_handler(TEMPMUTE_HANDLER)
 
-__mod_name__ = "Muting"
+__mod_name__ = "𝑀𝑢𝑡𝑖𝑛𝑔"
 __handlers__ = [MUTE_HANDLER, UNMUTE_HANDLER, TEMPMUTE_HANDLER]
