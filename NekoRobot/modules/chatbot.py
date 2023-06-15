@@ -150,10 +150,10 @@ __help__ = """
 *Admins only Commands*:
   • `/Chatbot`*:* Shows chatbot control panel
   
-*Powered By @Programmer_Network*
+
 """
 
-__mod_name__ = "ChatBot"
+__mod_name__ = "𝐶𝒉𝑎𝑡𝐵𝑜𝑡"
 
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", kuki, run_async=True)
