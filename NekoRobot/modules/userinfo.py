@@ -642,7 +642,7 @@ NEKO_PTB.add_handler(GET_BIO_HANDLER)
 NEKO_PTB.add_handler(SET_ABOUT_HANDLER)
 NEKO_PTB.add_handler(GET_ABOUT_HANDLER)
 
-__mod_name__ = "𝐼𝑛𝑓𝑜 & 𝐴𝑓𝑘"
+__mod_name__ = "Info & Afk"
 __command_list__ = ["setbio", "bio", "setme", "me", "info"]
 __handlers__ = [
     ID_HANDLER,
