@@ -541,7 +541,7 @@ NEKO_PTB.add_handler(UNGBAN_HANDLER)
 NEKO_PTB.add_handler(GBAN_LIST)
 NEKO_PTB.add_handler(GBAN_STATUS)
 
-__mod_name__ = "Anti-Spam"
+__mod_name__ = "𝐴𝑛𝑡𝑖-𝑆𝑝𝑎𝑚"
 __handlers__ = [GBAN_HANDLER, UNGBAN_HANDLER, GBAN_LIST, GBAN_STATUS]
 
 if STRICT_GBAN:  # enforce GBANS if this is set
