@@ -865,4 +865,4 @@ __help__ = """
    • `/dva`*:* Sends Random D.VA source Images.
 """
 
-__mod_name__ = "NSFW"
+__mod_name__ = "𝑁𝑠𝑓𝑤"
