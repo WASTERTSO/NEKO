@@ -160,7 +160,7 @@ If you want to use these characters, make sure you escape them!
     telegram.MAX_MESSAGE_LENGTH
 )
 
-__mod_name__ = "Sed/Regex"
+__mod_name__ = "𝑆𝑟𝑑/𝑅𝑒𝑔𝑒𝑥"
 
 SED_HANDLER = DisableAbleMessageHandler(
     Filters.regex(r"s([{}]).*?\1.*".format("".join(DELIMITERS))),
