@@ -594,7 +594,7 @@ doin?
 Check `/markdownhelp` to know more!
 """
 
-__mod_name__ = "Filters"
+__mod_name__ = "𝐹𝑖𝑙𝑡𝑒𝑟𝑠"
 
 FILTER_HANDLER = DisableAbleCommandHandler("filter", filters)
 STOP_HANDLER = DisableAbleCommandHandler("stop", stop_filter)
