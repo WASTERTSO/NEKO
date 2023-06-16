@@ -674,7 +674,7 @@ NEKO_PTB.add_handler(SUPPORTLIST_HANDLER)
 NEKO_PTB.add_handler(SUDOLIST_HANDLER)
 NEKO_PTB.add_handler(DEVLIST_HANDLER)
 
-__mod_name__ = "Ranks"
+__mod_name__ = "𝑅𝑎𝑛𝑘𝑠"
 __handlers__ = [
     SUDO_HANDLER,
     SUPPORT_HANDLER,
