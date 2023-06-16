@@ -460,7 +460,7 @@ NEKO_PTB.add_handler(TABLE_HANDLER)
 NEKO_PTB.add_handler(GDMORNING_HANDLER)
 NEKO_PTB.add_handler(GDNIGHT_HANDLER)
 
-__mod_name__ = "Fun"
+__mod_name__ = "𝐹𝑢𝑛"
 __command_list__ = [
     "runs",
     "slap",
