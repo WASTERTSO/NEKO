@@ -133,7 +133,7 @@ MD_HELP_HANDLER = CommandHandler("markdownhelp", markdown_help, run_async=True)
 NEKO_PTB.add_handler(ECHO_HANDLER)
 NEKO_PTB.add_handler(MD_HELP_HANDLER)
 
-__mod_name__ = "Extras"
+__mod_name__ = "𝐸𝑥𝑡𝑟𝑎𝑠"
 __command_list__ = ["id", "echo"]
 __handlers__ = [
     ECHO_HANDLER,
