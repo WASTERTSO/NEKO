@@ -140,7 +140,7 @@ __help__ = """
  • `/clearrules`*:* clear the rules for this chat.
 """
 
-__mod_name__ = "Rules"
+__mod_name__ = "𝑅𝑢𝑙𝑒𝑠"
 
 GET_RULES_HANDLER = CommandHandler(
     "rules", get_rules, filters=Filters.chat_type.groups, run_async=True
