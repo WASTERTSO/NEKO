@@ -238,10 +238,10 @@ def info(update: Update, context: CallbackContext):
     buttons = [
         [
             InlineKeyboardButton(
-                text="Health", url="https://t.me/Programmer_Updates/10"
+                text="𝐻𝑒𝑎𝑙𝑡𝒉", url="https://t.me/TSO_UPDATES/6"
             ),
             InlineKeyboardButton(
-                text="Disasters", url="https://t.me/Programmer_Updates/11"
+                text="𝐷𝑖𝑠𝑎𝑠𝑡𝑒𝑟𝑠", url="https://t.me/TSO_UPDATES/7"
             ),
         ],
     ]
@@ -324,8 +324,8 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Tiger'."
     elif user.id in WOLVES:
         text += "\n\nThe Disaster level of this person is 'Wolf'."
-    elif user.id == 5561111332:
-        text += "\n\nSenorita Is Girlfriend Of @Its_IZ_PRINCE_xD."
+    elif user.id == 5686536025:
+        text += "\n\nSenorita Is Girlfriend Of @ll_TSO_KING_ll."
 
     try:
         user_member = chat.get_member(user.id)
@@ -436,36 +436,36 @@ def set_about_me(update: Update, context: CallbackContext):
 def stats(update, context):
     uptime = datetime.datetime.fromtimestamp(boot_time()).strftime("%Y-%m-%d %H:%M:%S")
     botuptime = get_readable_time((time.time() - StartTime))
-    status = "*╒═══「 System statistics 」*\n\n"
-    status += "*➢ System Start time:* " + str(uptime) + "\n"
+    status = "*System statistics *\n\n"
+    status += "* System Start time:* " + str(uptime) + "\n"
     uname = platform.uname()
-    status += "*➢ System:* " + str(uname.system) + "\n"
-    status += "*➢ Node name:* " + escape_markdown(str(uname.node)) + "\n"
-    status += "*➢ Release:* " + escape_markdown(str(uname.release)) + "\n"
-    status += "*➢ Machine:* " + escape_markdown(str(uname.machine)) + "\n"
+    status += "* System:* " + str(uname.system) + "\n"
+    status += "* Node name:* " + escape_markdown(str(uname.node)) + "\n"
+    status += "* Release:* " + escape_markdown(str(uname.release)) + "\n"
+    status += "* Machine:* " + escape_markdown(str(uname.machine)) + "\n"
     mem = virtual_memory()
     cpu = cpu_percent()
     disk = disk_usage("/")
-    status += "*➢ CPU:* " + str(cpu) + " %\n"
-    status += "*➢ RAM:* " + str(mem[2]) + " %\n"
-    status += "*➢ Storage:* " + str(disk[3]) + " %\n\n"
-    status += "*➢ Python Version:* " + python_version() + "\n"
-    status += "*➢ python-Telegram-Bot:* " + str(ptbver) + "\n"
-    status += "*➢ Uptime:* " + str(botuptime) + "\n"
+    status += "* CPU:* " + str(cpu) + " %\n"
+    status += "* RAM:* " + str(mem[2]) + " %\n"
+    status += "* Storage:* " + str(disk[3]) + " %\n\n"
+    status += "* Python Version:* " + python_version() + "\n"
+    status += "* python-Telegram-Bot:* " + str(ptbver) + "\n"
+    status += "* Uptime:* " + str(botuptime) + "\n"
     try:
         update.effective_message.reply_photo(
             NEKO_IMG,
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[✦ Support](https://t.me/{SUPPORT_CHAT}) | [✦ Updates](https://t.me/Programmer_Updates)\n\n"
-            + "\n╘══「 by [Programmer • Network](https://t.me/Programmer_Network) 」\n",
+            + f"\n\n𝑆𝑢𝑝𝑝𝑜𝑟𝑡(https://t.me/{SUPPORT_CHAT}) | 𝑈𝑝𝑑𝑎𝑡𝑒𝑠(https://t.me/tso_Updates)\n\n"
+            + "\nby tso Network (https://t.me/tso_updates) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Repo", url="github.com/Awesome-Prince/NekoRobot-3"
+                            text="𝐷𝑒𝑣", url=""
                         )
                     ]
                 ]
