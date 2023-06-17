@@ -458,14 +458,14 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n𝑆𝑢𝑝𝑝𝑜𝑟𝑡(https://t.me/{SUPPORT_CHAT}) | 𝑈𝑝𝑑𝑎𝑡𝑒𝑠(https://t.me/tso_Updates)\n\n"
-            + "\nby tso Network (https://t.me/tso_updates) 」\n",
+            + f"\n\n[𝑆𝑢𝑝𝑝𝑜𝑟𝑡](https://t.me/{SUPPORT_CHAT}) | [𝑈𝑝𝑑𝑎𝑡𝑒𝑠](https://t.me/tso_Updates)\n\n"
+            + "\nby [tso Network](https://t.me/tso_updates) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝐷𝑒𝑣", url=""
+                            text="𝐷𝑒𝑣", url="https://t.me/ll_TSO_KING_ll"
                         )
                     ]
                 ]
@@ -479,16 +479,16 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/Programmer_Updates)\n\n"
+                    + f"\n\n[𝑆𝑢𝑝𝑝𝑜𝑟𝑡](https://t.me/{SUPPORT_CHAT}) | [𝑈𝑝𝑑𝑎𝑡𝑒𝑠](https://t.me/Programmer_Updates)\n\n"
                 )
-                + "╘══「 by [Programmer • Network](https://t.me/Programmer_Network) 」\n"
+                + "by [tso Network](https://t.me/tso_updates) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Repo", url="github.com/Awesome-Prince/NekoRobot-3"
+                            text="𝐷𝑒𝑣", url="https://t.me/ll_TSO_KING_ll"
                         )
                     ]
                 ]
