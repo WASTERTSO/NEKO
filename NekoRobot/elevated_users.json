@@ -1,15 +1,15 @@
 {
 
-    "devs": [5629305049],
+    "devs": [5686536025],
 
-    "supports": [5629305049],
+    "supports": [5686536025],
 
-    "whitelists": [],
+    "whitelists": [5686536025],
 
-    "sudos": [5629305049],
+    "sudos": [5686536025],
 
-    "tigers": [],
+    "tigers": [5686536025],
 
-    "spammers": []
+    "spammers": [5686536025]
 
 }
