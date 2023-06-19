@@ -24,11 +24,11 @@ async def proboyx(event):
     await event.get_chat()
     datetime.utcnow()
     betsy = event.sender.first_name
-    button = [[custom.Button.inline("Click Here", data="information")]]
+    button = [[custom.Button.inline("𝐶𝑙𝑖𝑐𝑘 𝐻𝑒𝑟𝑒", data="information")]]
     on = await bot.send_file(
         event.chat_id,
         file=file2,
-        caption=f"♡ Hey {betsy}, I'm Neko\n♡ I'm Created By [Prince](tg://user?id=1732814103)\n♡ Click The Button Below To Get Your Info",
+        caption=f"𝐻𝑒𝑦 {betsy}, \n𝐼'𝑚 𝐶𝑟𝑒𝑎𝑡𝑒𝑑 𝐵𝑦 [𝑌𝑜𝑢𝑟 𝑆𝒉𝑖𝑣](tg://user?id=5686536025)\n𝐶𝑙𝑖𝑐𝑘 𝑇𝒉𝑒 𝐵𝑢𝑡𝑡𝑜𝑛 𝑇𝑜 𝐺𝑒𝑡 𝑌𝑜𝑢𝑟 𝐼𝑛𝑓𝑜",
         buttons=button,
     )
 
@@ -65,13 +65,13 @@ async def callback_query_handler(event):
     try:
         boy = event.sender_id
         PRO = await bot.get_entity(boy)
-        NEKO = "YOUR DETAILS BY NEKO \n\n"
-        NEKO += f"FIRST NAME : {PRO.first_name} \n"
-        NEKO += f"LAST NAME : {PRO.last_name}\n"
-        NEKO += f"YOU BOT : {PRO.bot} \n"
-        NEKO += f"RESTRICTED : {PRO.restricted} \n"
-        NEKO += f"USER ID : {boy}\n"
-        NEKO += f"USERNAME : {PRO.username}\n"
+        NEKO = "𝑌𝑜𝑢𝑟 𝐷𝑒𝑡𝑎𝑖𝑙𝑠\n\n"
+        NEKO += f"𝐹𝑖𝑟𝑠𝑡 𝑁𝑎𝑚𝑒 : {PRO.first_name} \n"
+        NEKO += f"𝐿𝑎𝑠𝑡 𝑁𝑎𝑚𝑒 : {PRO.last_name}\n"
+        NEKO += f"𝑌𝑜𝑢 𝐵𝑜𝑡 : {PRO.bot} \n"
+        NEKO += f"𝑅𝑒𝑠𝑡𝑟𝑖𝑐𝑡𝑒𝑑 : {PRO.restricted} \n"
+        NEKO += f"𝑈𝑠𝑒𝑟 𝐼𝑑 : {boy}\n"
+        NEKO += f"𝑈𝑠𝑒𝑟𝑛𝑎𝑚𝑒 : {PRO.username}\n"
         await event.answer(NEKO, alert=True)
     except Exception as e:
         await event.reply(f"{e}")
