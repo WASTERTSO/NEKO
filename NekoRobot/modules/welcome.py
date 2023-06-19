@@ -245,8 +245,8 @@ def new_member(update: Update, context: CallbackContext):
             elif new_mem.id == bot.id:
                 update.effective_message.reply_photo(
                     WAIFUS_IMG,
-                    caption="𝐻𝑒𝑦 {}, 𝐼'𝑚 {}! T𝑇𝒉𝑎𝑛𝑘 𝑌𝑜𝑢𝐹𝑜𝑟 𝐴𝑑𝑑𝑖𝑛𝑔 𝑀𝑒 𝑇𝑜 {}\n"
-                    "𝐽𝑜𝑖𝑛 𝑆𝑢𝑝𝑝𝑜𝑟𝑡 𝐴𝑛𝑑 𝐶𝒉𝑎𝑛𝑛𝑒𝑙 𝑈𝑝𝑑𝑎𝑡𝑒 𝑊𝑖𝑡𝒉 𝐶𝑙𝑖𝑐𝑘𝑖𝑛𝑔 𝐵𝑢𝑡𝑡𝑜𝑛 𝐵𝑒𝑙𝑜𝑤!".format(
+                    caption="𝐻𝑒𝑦 {} 𝐼'𝑚 {}! 𝑇𝒉𝑎𝑛𝑘𝑌𝑜𝑢 𝐹𝑜𝑟 𝐴𝑑𝑑𝑖𝑛𝑔 𝑀𝑒 𝑇𝑜 {}\n"
+                    "𝐽𝑜𝑖𝑛 𝑆𝑢𝑝𝑝𝑜𝑟𝑡 𝐴𝑛𝑑 𝐶𝒉𝑎𝑛𝑛𝑒𝑙 𝑈𝑝𝑑𝑎𝑡𝑒 𝑊𝑖𝑡𝒉 𝐶𝑙𝑖𝑐𝑘𝑖𝑛𝑔 𝐵𝑢𝑡𝑡𝑜𝑛 𝐵𝑒𝑙𝑜𝑤".format(
                         user.first_name, context.bot.first_name, chat.title
                     ),
                     reply_to_message_id=reply,
