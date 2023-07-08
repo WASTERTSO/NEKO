@@ -140,7 +140,7 @@ buttons = [
     [
         InlineKeyboardButton(text="𝐻𝑒𝑙𝑝 🚨", callback_data="help_back"),
         InlineKeyboardButton(
-            text="𝐷𝑒𝑣 👨‍💻", url="https://t.me/ll_tso_king_ll"
+            text="𝐷𝑒𝑣 👨‍💻", url="https://t.me/About_your_shiv"
         ),
     ],
     [
