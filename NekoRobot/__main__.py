@@ -120,7 +120,7 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://graph.org/file/693fdb0ab9e4821cf67e2.jpg)」────
+────「 [{}](https://graph.org/file/47d538f5ab28c7f448df6.jpg)」────
 *𝐻𝑒𝑦 ! {},*
 *𝐼'𝑚 𝐺𝑟𝑜𝑢𝑝 𝑀𝑎𝑛𝑎𝑔𝑒𝑟 𝐵𝑜𝑡!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -148,7 +148,7 @@ buttons = [
             text="𝑆𝑢𝑝𝑝𝑜𝑟𝑡 🚑", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="𝑈𝑝𝑑𝑎𝑡𝑒𝑠 ❓", url="https://telegram.dog/tso_Updates"
+            text="𝑈𝑝𝑑𝑎𝑡𝑒𝑠 ❓", url="https://telegram.dog/Makima_Updates"
         ),
     ],
 ]
@@ -313,7 +313,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="𝑈𝑝𝑑𝑎𝑡𝑒𝑠 ❓",
-                            url="https://telegram.dog/tso_Updates",
+                            url="https://telegram.dog/Makima_Updates",
                         ),
                     ]
                 ]
