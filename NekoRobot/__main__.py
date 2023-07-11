@@ -138,7 +138,7 @@ buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="𝐻𝑒𝑙𝑝 🚨", callback_data="help_back"),
+        InlineKeyboardButton(text="𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠 🚨", callback_data="help_back"),
         InlineKeyboardButton(
             text="𝑀𝑢𝑠𝑖𝑐 🎧", url="https://t.me/makima_musicxbot"
         ),
@@ -677,7 +677,7 @@ def donate(update: Update, context: CallbackContext) -> None:
                         [
                             InlineKeyboardButton(
                                 text="𝑈𝑝𝑑𝑎𝑡𝑒𝑠 ❓",
-                                url="https://telegram.dog/tso_Updates",
+                                url="https://telegram.dog/makima_Updatess",
                             ),
                             InlineKeyboardButton(
                                 text="𝑆𝑢𝑝𝑝𝑜𝑟𝑡 🚑",
