@@ -47,7 +47,7 @@ def kukirm(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                f"Hey Darling Neko Chatbot disable by {mention_html(user.id, user.first_name)}.",
+                f"𝑯𝒆𝒚 𝑩𝒂𝒃𝒚 𝑪𝒉𝒂𝒕 𝑩𝒐𝒕 𝑫𝒊𝒔𝒂𝒃𝒍𝒆 𝑩𝒚 disable by {mention_html(user.id, user.first_name)}.",
                 parse_mode=ParseMode.HTML,
             )
 
@@ -71,7 +71,7 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                f"Hey Darling Neko Chatbot enable by {mention_html(user.id, user.first_name)}.",
+                f"𝑯𝒆𝒚 𝑩𝒂𝒃𝒚 𝑪𝒉𝒂𝒕 𝑩𝒐𝒕 𝑬𝒏𝒂𝒃𝒍𝒆 𝑩𝒚 {mention_html(user.id, user.first_name)}.",
                 parse_mode=ParseMode.HTML,
             )
 
@@ -86,8 +86,8 @@ def kuki(update: Update, context: CallbackContext):
     msg = "Choose an option"
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="Enable", callback_data="add_chat({})")],
-            [InlineKeyboardButton(text="Disable", callback_data="rm_chat({})")],
+            [InlineKeyboardButton(text="𝑬𝒏𝒂𝒃𝒍𝒆", callback_data="add_chat({})")],
+            [InlineKeyboardButton(text="𝑫𝒊𝒔𝒂𝒃𝒍𝒆", callback_data="rm_chat({})")],
         ]
     )
     message.reply_text(
