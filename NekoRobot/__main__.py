@@ -133,12 +133,12 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text=f" {BOT_NAME} 𝐴𝑑𝑑 𝑀𝑒 𝐵𝑎𝑏𝑦 ➕",
+            text=f" {BOT_NAME} 𝐴𝑑𝑑 𝑀𝑒 𝑇𝑜 𝑌𝑜𝑢𝑟 𝐺𝑟𝑜𝑢𝑝 ➕",
             url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠 🚨", callback_data="help_back"),
+        InlineKeyboardButton(text="𝐻𝑒𝑙𝑝 𝐴𝑛𝑑 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠 🚨", callback_data="help_back"),
         InlineKeyboardButton(
             text="𝑀𝑢𝑠𝑖𝑐 🎧", url="https://t.me/makima_musicxbot"
         ),
