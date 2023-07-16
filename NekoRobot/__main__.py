@@ -141,7 +141,7 @@ buttons = [
     [
         InlineKeyboardButton(text="𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠 🚨", callback_data="help_back"),
         InlineKeyboardButton(
-            text="𝑂𝑤𝑛𝑒𝑟 💸", url="https://t.me/makima_musicxbot"
+            text="𝑂𝑤𝑛𝑒𝑟 💸", url="https://t.me/sleeping_always"
         ),
     ],
     [
