@@ -386,7 +386,7 @@ will result in restricting that user.
  `1w` = 1 week
  """
 
-__mod_name__ = "𝐴𝑛𝑡𝑖-𝐹𝑙𝑜𝑜𝑑"
+__mod_name__ = "ᴀɴᴛɪ-ғʟᴏᴏᴅ"
 
 FLOOD_BAN_HANDLER = MessageHandler(
     Filters.all & ~Filters.status_update & Filters.chat_type.groups,
