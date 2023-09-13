@@ -573,9 +573,6 @@ Get information about anime, manga or characters from [AniList](anilist.co).
  • `/airing <anime>`*:* returns anime airing info.
  • `/imdb` <anime/movie name> *:* get IMDb details of the anime or movie
 
-• *Anime Fun:*
- • `/aq` *:* get random anime quotes
-
  """
 
 ANIME_HANDLER = DisableAbleCommandHandler("anime", anime, run_async=True)
@@ -598,7 +595,7 @@ NEKO_PTB.add_handler(KAIZOKU_SEARCH_HANDLER)
 NEKO_PTB.add_handler(KAYO_SEARCH_HANDLER)
 NEKO_PTB.add_handler(UPCOMING_HANDLER)
 
-__mod_name__ = "𝐴𝑛𝑖𝑚𝑒"
+__mod_name__ = "ᴀɴɪᴍᴇ"
 __command_list__ = [
     "anime",
     "manga",
