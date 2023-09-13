@@ -1125,7 +1125,7 @@ NEKO_PTB.add_handler(CLEAN_SERVICE_HANDLER)
 NEKO_PTB.add_handler(BUTTON_VERIFY_HANDLER)
 NEKO_PTB.add_handler(WELCOME_MUTE_HELP)
 
-__mod_name__ = "𝐺𝑟𝑒𝑒𝑡𝑖𝑛𝑔𝑠"
+__mod_name__ = "ɢʀᴇᴇᴛɪɴɢs"
 __command_list__ = []
 __handlers__ = [
     NEW_MEM_HANDLER,
