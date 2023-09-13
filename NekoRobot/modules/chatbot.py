@@ -153,7 +153,7 @@ __help__ = """
 
 """
 
-__mod_name__ = "𝐶𝒉𝑎𝑡𝐵𝑜𝑡"
+__mod_name__ = "ᴄʜᴀᴛʙᴏᴛ"
 
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", kuki, run_async=True)
