@@ -187,4 +187,4 @@ and Automatically openned at 6am(IST) To Prevent Night Spams.
 """
 
 
-__mod_name__ = "𝑁𝑖𝑔𝒉𝑡 𝑀𝑜𝑑𝑒"
+__mod_name__ = "ɴɪɢʜᴛ-ᴍᴏᴅᴇ"
