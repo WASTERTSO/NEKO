@@ -108,8 +108,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-HELP_MSG = "𝐶𝑙𝑖𝑐𝑘 𝑇𝒉𝑒 𝐵𝑢𝑡𝑡𝑜𝑛 𝐵𝑒𝑙𝑜𝑤 𝑇𝑜 𝐺𝑒𝑡 𝐻𝑒𝑙𝑝 𝑀𝑒𝑛𝑢 𝐼𝑛 𝑌𝑜𝑢𝑟 𝐷𝑚."
-START_MSG = "𝐼'𝑚 𝐴𝑤𝑎𝑘𝑒 𝐴𝑙𝑟𝑒𝑎𝑑𝑦!\n<b>𝐻𝑎𝑣𝑒𝑛'𝑡 𝑆𝑙𝑒𝑝𝑡 𝑆𝑖𝑛𝑐𝑒:</b> <code>{}</code>"
+HELP_MSG = "ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴇɴᴜ ɪɴ ʏᴏᴜʀ ᴅᴍ"
+START_MSG = "ɪ'ᴍ ᴀᴡᴀᴋᴇ ᴀʟʀᴇᴀᴅʏ!\n<b>ʜᴀᴠᴇɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
     "CAACAgIAAx0CbjsyBAABAhRJZIb6VU_BgeytWUqVFjTWk9CGNngAAiggAAIlpglL4WoKTnvr4VUvBA",
@@ -141,7 +141,7 @@ buttons = [
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
         InlineKeyboardButton(
-            text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/sleeping_always"
+            text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/about_your_shiv"
         ),
     ],
     [
@@ -149,19 +149,18 @@ buttons = [
             text="sᴜᴘᴘᴏʀᴛ", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇs", url="https://telegram.dog/Makima_Updatess"
+            text="ᴜᴘᴅᴀᴛᴇs", url="https://telegram.dog/godx_bots"
         ),
     ],
 ]
 
 HELP_STRINGS = """
-*𝑀𝑎𝑖𝑛* 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠 𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒:
-/help: 𝑃𝑚'𝑠 𝑌𝑜𝑢 𝑇𝒉𝑖𝑠 𝑀𝑒𝑠𝑠𝑎𝑔𝑒.
-/help <𝑀𝑜𝑑𝑢𝑙𝑒 𝑁𝑎𝑚𝑒>: 𝑃𝑚'𝑠 𝑌𝑜𝑢 𝐼𝑛𝑓𝑜 𝐴𝑏𝑜𝑢𝑡 𝑇𝒉𝑎𝑡 𝑀𝑜𝑑𝑢𝑙𝑒.
-/donate: 𝐼𝑛𝑓𝑜𝑟𝑚𝑎𝑡𝑖𝑜𝑛 𝑂𝑛 𝐻𝑜𝑤 𝑇𝑜 𝐷𝑜𝑛𝑎𝑡𝑒!
-/settings:
-𝐼𝑛 𝑃𝑚: 𝑊𝑖𝑙𝑙 𝑆𝑒𝑛𝑑 𝑌𝑜𝑢 𝑌𝑜𝑢𝑟𝑠 𝑆𝑒𝑡𝑡𝑖𝑛𝑔𝑠 𝐹𝑜𝑟 𝐴𝑙𝑙 𝑆𝑢𝑝𝑝𝑜𝑟𝑡𝑒𝑑 𝑀𝑜𝑑𝑢𝑙𝑒.
-𝐼𝑛 𝐴 𝐺𝑟𝑜𝑢𝑝: 𝑊𝑖𝑙𝑙 𝑅𝑒𝑑𝑖𝑟𝑒𝑐𝑡 𝑌𝑜𝑢 𝑇𝑜 𝑃𝑚, 𝑊𝑖𝑡𝒉 𝐴𝑙𝑙 𝑇𝒉𝑎𝑡 𝐶𝒉𝑎𝑡𝑠 𝑆𝑒𝑡𝑡𝑖𝑛𝑔𝑠.
+*ɢᴏᴋᴜ* ᴇxᴄʟᴜsɪᴠᴇ ғᴇᴀᴛᴜʀᴇs:
+/start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ.
+/help : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.
+ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
+ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇꜱ.
+ 
 """
 
 GROUP_START_IMG = (
@@ -303,7 +302,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             random.choice(GROUP_START_IMG),
-            caption=f"<b>𝑌𝑒𝑠, 𝑀𝑎𝑠𝑡𝑒𝑟 𝐼'𝑚 𝐴𝑙𝑖𝑣𝑒!\n𝐻𝑎𝑣𝑒𝑛'𝑡 𝑆𝑙𝑒𝑒𝑝 𝑆𝑖𝑛𝑐𝑒</b>: <code>{uptime}</code>",
+            caption=f"<b>ʏᴇs ᴍᴀsᴛᴇʀ ɪ'ᴍ ᴀʟɪᴠᴇ\nʜᴀᴠᴇɴ'ᴛ sʟᴇᴇᴘ sɪɴᴄᴇ</b>: <code>{uptime}</code>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -314,7 +313,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs",
-                            url="https://telegram.dog/Makima_Updatess",
+                            url="https://telegram.dog/godx_bots",
                         ),
                     ]
                 ]
@@ -656,7 +655,7 @@ def donate(update: Update, context: CallbackContext) -> None:
 
         if OWNER_ID != 5686536025 and DONATION_LINK:
             update.effective_message.reply_text(
-                f"𝑌𝑜𝑢 𝐶𝑎𝑛 𝐴𝑙𝑠𝑜 𝐷𝑜𝑛𝑎𝑡𝑒 𝑇𝑜 𝑇𝒉𝑒 𝑃𝑒𝑟𝑠𝑜𝑛 𝐶𝑢𝑟𝑟𝑒𝑛𝑡𝑙𝑦 𝑅𝑢𝑛𝑛𝑖𝑔 𝑀𝑒 [here]({DONATION_LINK})",
+                f"ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴘᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɢ ᴍᴇ [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
             )
 
@@ -672,13 +671,13 @@ def donate(update: Update, context: CallbackContext) -> None:
             )
 
             update.effective_message.reply_text(
-                text="𝐼'𝑚 𝐹𝑟𝑒𝑒 𝐹𝑜𝑟 𝐸𝑣𝑒𝑟𝑦𝑂𝑛𝑒\n𝐽𝑢𝑠𝑡 𝐷𝑜𝑛𝑎𝑡𝑒 𝐵𝑦 𝑆𝑢𝑏𝑠 𝐶𝒉𝑎𝑛𝑛𝑒𝑙, 𝐷𝑜𝑛'𝑡 𝐹𝑜𝑟𝑔𝑒𝑡 𝑇𝑜 𝐽𝑜𝑖𝑛 𝑆𝑢𝑝𝑝𝑜𝑟𝑡 𝐺𝑟𝑜𝑢𝑝.",
+                text="ɪ'ᴍ ғʀᴇᴇ ғᴏʀ ᴇᴠᴇʀʏᴏɴᴇ\nᴊᴜsᴛ ᴅᴏɴᴀᴛᴇ ʙʏ sᴜʙs ᴄʜᴀɴɴᴇʟ ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
                                 text="ᴜᴘᴅᴀᴛᴇs",
-                                url="https://telegram.dog/makima_Updatess",
+                                url="https://telegram.dog/godx_bots",
                             ),
                             InlineKeyboardButton(
                                 text="sᴜᴘᴘᴏʀᴛ",
@@ -690,7 +689,7 @@ def donate(update: Update, context: CallbackContext) -> None:
             )
         except Unauthorized:
             update.effective_message.reply_text(
-                "𝐶𝑜𝑛𝑡𝑎𝑐𝑡 𝑀𝑒 𝐼𝑛 𝑃𝑚 𝐹𝑖𝑟𝑠𝑡 𝑇𝑜 𝐺𝑒𝑡 𝐷𝑜𝑛𝑎𝑡𝑖𝑜𝑛 𝐼𝑛𝑓𝑜𝑟𝑚𝑎𝑡𝑖𝑜𝑛."
+                "ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ғɪʀsᴛ ᴛᴏ ɢᴇᴛ ᴅᴏɴᴀᴛɪᴏɴ ɪɴғᴏʀᴍᴀᴛɪᴏɴ."
             )
 
 
