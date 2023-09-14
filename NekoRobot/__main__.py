@@ -374,7 +374,7 @@ def help_button(update: Update, context: CallbackContext) -> None:
         if mod_match:
             module = mod_match[1]
             text = (
-                f"*{HELPABLE[module].__mod_name__}* module: 」\n"
+                f"*{HELPABLE[module].__mod_name__}* module\n"
                 + HELPABLE[module].__help__
             )
 
