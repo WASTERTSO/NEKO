@@ -38,11 +38,11 @@ from NekoRobot.events import register
 
 edit_time = 5
 """ =======================Neko====================== """
-file1 = "https://telegra.ph/file/cd7aad1ea310312886358.png"
-file2 = "https://telegra.ph/file/48a97320463caa61dba3d.png"
-file3 = "https://telegra.ph/file/2295a7207495eccbbe298.png"
-file4 = "https://telegra.ph/file/67e0bf231a97cd2e364ea.png"
-file5 = "https://telegra.ph/file/990684ecd3d119fa9fec6.png"
+file1 = "https://graph.org/file/171867ba89f5a845f3e63.jpg"
+file2 = "https://graph.org/file/df144ed1f6e57240447c5.jpg"
+file3 = "https://graph.org/file/14a94a6d27c828626bf00.jpg"
+file4 = "https://graph.org/file/d3a031b3076ad6b108f77.jpg"
+file5 = "https://graph.org/file/1fb02ef4e59c1af4fd52d.jpg"
 """ =======================Neko====================== """
 
 START_TIME = datetime.utcnow()
@@ -73,17 +73,17 @@ async def hmm(yes):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    NekoX = f"**  𝐻𝑒𝑦 [{yes.sender.first_name}](tg://user?id={yes.sender.id})  {BOT_NAME} **\n\n"
-    NekoX += f"** 𝑀𝑦 𝑈𝑝𝑡𝑖𝑚𝑒 :** `{uptime}`\n\n"
-    NekoX += f"** 𝑃𝑦𝑡𝒉𝑜𝑛𝑒 𝑇𝑒𝑙𝑒𝑔𝑟𝑎𝑚 𝐵𝑜𝑡 𝑉𝑒𝑟𝑠𝑖𝑜𝑛 :** `{ptb}`\n\n"
-    NekoX += f"** 𝑇𝑒𝑙𝑒𝑡𝒉𝑜𝑛𝑒 𝑉𝑒𝑟𝑠𝑖𝑜𝑛 :** `{tlhver}`\n\n"
-    NekoX += f"** 𝑃𝑦𝑟𝑜𝑔𝑟𝑎𝑚 𝑉𝑒𝑟𝑠𝑖𝑜𝑛 :** `{pyrover}`\n\n"
-    NekoX += "**  𝐷𝑒𝑣 :** [𝑌𝑜𝑢𝑟 𝑆𝒉𝑖𝑣](https://t.me/about_your_shiv) "
-    NekoX += f" 𝑇𝒉𝑎𝑛𝑘𝑠 𝐹𝑜𝑟 𝐴𝑑𝑑𝑖𝑛𝑔 𝑀𝑒 𝐼𝑛 {yes.chat.title}"
+    NekoX = f"**  ʜᴇʏ [{yes.sender.first_name}](tg://user?id={yes.sender.id})  {BOT_NAME} **\n\n"
+    NekoX += f"** ᴍʏ ᴜᴘᴛɪᴍᴇ :** `{uptime}`\n\n"
+    NekoX += f"** ᴘʏᴛʜᴏɴᴇ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `{ptb}`\n\n"
+    NekoX += f"** ᴛᴇʟᴇᴛʜᴏɴᴇ ᴠᴇʀsɪᴏɴ :** `{tlhver}`\n\n"
+    NekoX += f"** ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}`\n\n"
+    NekoX += "**  ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [ʏᴏᴜʀ sʜɪᴠ](https://t.me/about_your_shiv) "
+    NekoX += f" ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {yes.chat.title}"
     BUTTON = [
         [
-            Button.url("𝐻𝑒𝑙𝑝", f"https://t.me/{BOT_USERNAME}?start=help"),
-            Button.url("𝑆𝑢𝑝𝑝𝑜𝑟𝑡", f"https://t.me/{SUPPORT_CHAT}"),
+            Button.url("ʜᴇʟᴘ", f"https://t.me/{BOT_USERNAME}?start=help"),
+            Button.url("sᴜᴘᴘᴏʀᴛ", f"https://t.me/{SUPPORT_CHAT}"),
         ]
     ]
     on = await neko.send_file(yes.chat_id, file=file2, caption=NekoX, buttons=BUTTON)
