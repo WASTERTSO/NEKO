@@ -90,35 +90,37 @@ NEKO_STICKERS = (
 
 PM_START_TEXT = """
 ────「 [{}](https://graph.org/file/f953ba7aeddc3a3d91aef.jpg)」────
-*ʜᴇʟʟᴏ ✨ {},*
+*Hᴇʏ 🥀 {},*
 * 🐉*
 ───────────────────────
-❍ *ᴜᴘᴛɪᴍᴇ:* `{}`
-❍ `{}` *ᴜsᴇʀs, ᴀᴄʀᴏss𝑠* `{}` *ᴄʜᴀᴛs.*
+┏━━━━━━━━━━━━━━━━━━━━━
+┃*ᴜᴘᴛɪᴍᴇ:* {}
+ ⦾
+┃{} *ᴜsᴇʀs, ᴀᴄʀᴏss𝑠* {} *ᴄʜᴀᴛs.*
+┗━━━━━━━━━━━━━━━━━━━━━
 ───────────────────────
-ɪ'ᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜsɪᴄ ʙᴏᴛ ᴡɪᴛʜ ᴀᴡsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs ࿈
-✯ ʜɪᴛ /mstart ғᴏʀ ᴍᴜsɪᴄ
+*I'ᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴡsᴏᴍᴇ ᴀɴᴅ  ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs ♪ [ɴᴏ ᴀᴅs]*
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text=f" {BOT_NAME} 𝐀𝙳𝙳 𝙼𝙴 ✨",
+            text=f" {BOT_NAME} Aᴅᴅ ᴍᴇ ✨",
             url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="𝐂𝙾𝙼𝙼𝙰𝙽𝙳𝚂 💡", callback_data="help_back"),
+        InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs 💡", callback_data="help_back"),
         InlineKeyboardButton(
-            text="𝐌𝚄𝚂𝙸𝙲 🎵", url="https://t.me/about_your_shiv"
+            text="Mᴜsɪᴄ 🎵", url="https://t.me/about_your_shiv"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="𝐒𝚄𝙿𝙿𝙾𝚁𝚃 🚑", url=f"https://telegram.dog/{SUPPORT_CHAT}"
+            text="Sᴜᴘᴘᴏʀᴛ 🚑", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="𝐔𝙿𝙳𝙰𝚃𝙴𝚂 🍷", url="https://telegram.dog/godx_bots"
+            text="Uᴘᴅᴀᴛᴇs 🍷", url="https://telegram.dog/godx_bots"
         ),
     ],
 ]
