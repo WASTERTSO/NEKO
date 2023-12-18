@@ -1,28 +1,3 @@
-"""
-BSD 2-Clause License
-Copyright (C) 2017-2019, Paul Larsen
-Copyright (C) 2022-2023, Awesome-Prince, [ https://github.com/Awesome-Prince]
-Copyright (c) 2022-2023, Programmer Network, [ https://github.com/Awesome-Prince/NekoRobot-3 ]
-All rights reserved.
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-"""
-
 import html
 import os
 
@@ -1003,55 +978,62 @@ def adminlist(update, context):
 
 __help__ = """
 *User Commands*:
-  • `/admins`*:* list of admins in the chat
-  • `/pinned`*:* to get the current pinned message.
-  • `/rules`*:* get the rules for this chat.
+
+`/admins`*:* list of admins in the chat
+`/pinned`*:* to get the current pinned message.
+`/rules`*:* get the rules for this chat.
 
 *Promote & Demote Commands are Admins only*:
-  • `/promote (user) (?admin's title)`*:* Promotes the user to admin.
-  • `/demote (user)`*:* Demotes the user from admin.
-  • `/lowpromote`*:* Promote a member with low rights
-  • `/midpromote`*:* Promote a member with mid rights
-  • `/highpromote`*:* Promote a member with max rights
-  • `/lowdemote`*:* Demote an admin to low permissions
-  • `/middemote`*:* Demote an admin to mid permissions
+
+`/promote (user) (?admin's title)`*:* Promotes the user to admin.
+`/demote (user)`*:* Demotes the user from admin.
+`/lowpromote`*:* Promote a member with low rights
+`/midpromote`*:* Promote a member with mid rights
+`/highpromote`*:* Promote a member with max rights
+`/lowdemote`*:* Demote an admin to low permissions
+`/middemote`*:* Demote an admin to mid permissions
  
 *Cleaner & Purge Commands are Admins only*:
-  • `/del`*:* deletes the message you replied to
-  • `/purge`*:* deletes all messages between this and the replied to message.
-  • `/purge <integer X>`*:* deletes the replied message, and X messages following it if replied to a message.
-  • `/zombies`*:* counts the number of deleted account in your group
-  • `/kickthefools`*:* Kick inactive members from group (one week)
+
+`/del`*:* deletes the message you replied to
+`/purge`*:* deletes all messages between this and the replied to message.
+`/purge <integer X>`*:* deletes the replied message, and X messages following it if replied to a message.
+`/zombies`*:* counts the number of deleted account in your group
+`/kickthefools`*:* Kick inactive members from group (one week)
   
 *Pin & Unpin Commands are Admins only*:
-  • `/pin`*:* silently pins the message replied to - add 'loud' or 'notify' to give notifs to users.
-  • `/unpin`*:* unpins the currently pinned message - add 'all' to unpin all pinned messages.
-  • `/permapin`*:* Pin a custom message through the bot. This message can contain markdown, buttons, and all the other cool features.
-  • `/unpinall`*:* Unpins all pinned messages.
-  • `/antichannelpin <yes/no/on/off>`*:* Don't let telegram auto-pin linked channels. If no arguments are given, shows current setting.
-  • `/cleanlinked <yes/no/on/off>`*:* Delete messages sent by the linked channel.
+
+`/pin`*:* silently pins the message replied to - add 'loud' or 'notify' to give notifs to users.
+`/unpin`*:* unpins the currently pinned message - add 'all' to unpin all pinned messages.
+`/permapin`*:* Pin a custom message through the bot. This message can contain markdown, buttons, and all the other cool features.
+`/unpinall`*:* Unpins all pinned messages.
+`/antichannelpin <yes/no/on/off>`*:* Don't let telegram auto-pin linked channels. If no arguments are given, shows current setting.
+`/cleanlinked <yes/no/on/off>`*:* Delete messages sent by the linked channel.
   
 *Log Channel are Admins only*:
-  • `/logchannel`*:* get log channel info
-  • `/setlog`*:* set the log channel.
-  • `/unsetlog`*:* unset the log channel.
+
+`/logchannel`*:* get log channel info
+`/setlog`*:* set the log channel.
+`/unsetlog`*:* unset the log channel.
 *Setting the log channel is done by*:
-• adding the bot to the desired channel (as an admin!)
-• sending `/setlog` in the channel
-• forwarding the `/setlog` to the group
+adding the bot to the desired channel (as an admin!)
+sending `/setlog` in the channel
+forwarding the `/setlog` to the group
  
 *Rules*:
-  • `/setrules <your rules here>`*:* set the rules for this chat.
-  • `/clearrules`*:* clear the rules for this chat.
+
+`/setrules <your rules here>`*:* set the rules for this chat.
+`/clearrules`*:* clear the rules for this chat.
 
 *The Others Commands are Admins only*:
-  • `/invitelink`*:* gets invitelink
-  • `/title <title here>`*:* sets a custom title for an admin that the bot promoted
-  • `/admincache`*:* force refresh the admins list
-  • `/setgtitle <text>`*:* set group title
-  • `/setgpic`*:* reply to an image to set as group photo
-  • `/setdesc`*:* Set group description
-  • `/setsticker`*:* Set group sticker
+
+`/invitelink`*:* gets invitelink
+`/title <title here>`*:* sets a custom title for an admin that the bot promoted
+`/admincache`*:* force refresh the admins list
+`/setgtitle <text>`*:* set group title
+`/setgpic`*:* reply to an image to set as group photo
+`/setdesc`*:* Set group description
+`/setsticker`*:* Set group sticker
 """
 
 SET_DESC_HANDLER = CommandHandler(
