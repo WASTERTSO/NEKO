@@ -1,28 +1,3 @@
-"""
-BSD 2-Clause License
-Copyright (C) 2017-2019, Paul Larsen
-Copyright (C) 2022-2023, Awesome-Prince, [ https://github.com/Awesome-Prince]
-Copyright (c) 2022-2023, Programmer Network, [ https://github.com/Awesome-Prince/NekoRobot-3 ]
-All rights reserved.
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-"""
-
 import csv
 import json
 import os
@@ -2303,17 +2278,17 @@ def get_chat(chat_id, chat_data):
 def fed_owner_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
         """*👑 Fed Owner Only:*
- • `/newfed <fed_name>`*:* Creates a Federation, One allowed per user
- • `/renamefed <fed_id> <new_fed_name>`*:* Renames the fed id to a new name
- • `/delfed <fed_id>`*:* Delete a Federation, and any information related to it. Will not cancel blocked users
- • `/fpromote <user>`*:* Assigns the user as a federation admin. Enables all commands for the user under `Fed Admins`
- • `/fdemote <user>`*:* Drops the User from the admin Federation to a normal User
- • `/subfed <fed_id>`*:* Subscribes to a given fed ID, bans from that subscribed fed will also happen in your fed
- • `/unsubfed <fed_id>`*:* Unsubscribes to a given fed ID
- • `/setfedlog <fed_id>`*:* Sets the group as a fed log report base for the federation
- • `/unsetfedlog <fed_id>`*:* Removed the group as a fed log report base for the federation
- • `/fbroadcast <message>`*:* Broadcasts a messages to all groups that have joined your fed
- • `/fedsubs`*:* Shows the feds your group is subscribed to `(broken rn)`""",
+ `/newfed <fed_name>`*:* Creates a Federation, One allowed per user
+ `/renamefed <fed_id> <new_fed_name>`*:* Renames the fed id to a new name
+ `/delfed <fed_id>`*:* Delete a Federation, and any information related to it. Will not cancel blocked users
+ `/fpromote <user>`*:* Assigns the user as a federation admin. Enables all commands for the user under `Fed Admins`
+ `/fdemote <user>`*:* Drops the User from the admin Federation to a normal User
+ `/subfed <fed_id>`*:* Subscribes to a given fed ID, bans from that subscribed fed will also happen in your fed
+ `/unsubfed <fed_id>`*:* Unsubscribes to a given fed ID
+ `/setfedlog <fed_id>`*:* Sets the group as a fed log report base for the federation
+ `/unsetfedlog <fed_id>`*:* Removed the group as a fed log report base for the federation
+ `/fbroadcast <message>`*:* Broadcasts a messages to all groups that have joined your fed
+ `/fedsubs`*:* Shows the feds your group is subscribed to `(broken rn)`""",
         parse_mode=ParseMode.MARKDOWN,
     )
 
@@ -2321,16 +2296,16 @@ def fed_owner_help(update: Update, context: CallbackContext):
 def fed_admin_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
         """*🔱 Fed Admins:*
- • `/fban <user> <reason>`*:* Fed bans a user
- • `/unfban <user> <reason>`*:* Removes a user from a fed ban
- • `/fedinfo <fed_id>`*:* Information about the specified Federation
- • `/joinfed <fed_id>`*:* Join the current chat to the Federation. Only chat owners can do this. Every chat can only be in one Federation
- • `/leavefed <fed_id>`*:* Leave the Federation given. Only chat owners can do this
- • `/setfrules <rules>`*:* Arrange Federation rules
- • `/fedadmins`*:* Show Federation admin
- • `/fbanlist`*:* Displays all users who are victimized at the Federation at this time
- • `/fedchats`*:* Get all the chats that are connected in the Federation
- • `/chatfed `*:* See the Federation in the current chat\n""",
+ `/fban <user> <reason>`*:* Fed bans a user
+ `/unfban <user> <reason>`*:* Removes a user from a fed ban
+ `/fedinfo <fed_id>`*:* Information about the specified Federation
+ `/joinfed <fed_id>`*:* Join the current chat to the Federation. Only chat owners can do this. Every chat can only be in one Federation
+ `/leavefed <fed_id>`*:* Leave the Federation given. Only chat owners can do this
+ `/setfrules <rules>`*:* Arrange Federation rules
+ `/fedadmins`*:* Show Federation admin
+ `/fbanlist`*:* Displays all users who are victimized at the Federation at this time
+ `/fedchats`*:* Get all the chats that are connected in the Federation
+ `/chatfed `*:* See the Federation in the current chat\n""",
         parse_mode=ParseMode.MARKDOWN,
     )
 
@@ -2338,9 +2313,9 @@ def fed_admin_help(update: Update, context: CallbackContext):
 def fed_user_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
         """*🎩 Any user:*
- • `/fbanstat`*:* Shows if you/or the user you are replying to or their username is fbanned somewhere or not
- • `/fednotif <on/off>`*:* Federation settings not in PM when there are users who are fbaned/unfbanned
- • `/frules`*:* See Federation regulations\n""",
+ `/fbanstat`*:* Shows if you/or the user you are replying to or their username is fbanned somewhere or not
+ `/fednotif <on/off>`*:* Federation settings not in PM when there are users who are fbaned/unfbanned
+ `/frules`*:* See Federation regulations\n""",
         parse_mode=ParseMode.MARKDOWN,
     )
 
@@ -2355,9 +2330,9 @@ You can even designate federation admins, so your trusted admin can ban all the 
 
 *Commands:*\n
 Feds are now divided into 3 sections for your ease. 
-• `/fedownerhelp`*:* Provides help for fed creation and owner only commands
-• `/fedadminhelp`*:* Provides help for fed administration commands
-• `/feduserhelp`*:* Provides help for commands anyone can use
+`/fedownerhelp`*:* Provides help for fed creation and owner only commands
+`/fedadminhelp`*:* Provides help for fed administration commands
+`/feduserhelp`*:* Provides help for commands anyone can use
 
 """
 
