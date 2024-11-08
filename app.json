@@ -38,7 +38,7 @@
   "STRING_SESSION": {
     "description": "Telethon Based String Session (2nd ID) [ From (link unavailable) ]",
     "required": false,
-    "value": ""
+    "value": "."
   },
   
 }
