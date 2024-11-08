@@ -18,26 +18,30 @@
          "plan": "heroku-postgresql"
       }
    ],
-   "env": {
-      "TOKEN": {
-         "description": "Your bot token. Get one from @BotFather duh",
-         "required": true,
-         "value": ""
-      },
-      "API_ID": {
-         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
-         "required": true,
-         "value": "16201672"
-      },
-      "API_HASH": {
-         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
-         "required": true,
-         "value": "55f85061314c2c0f6edeec9751b90913"
-      },
-       "STRING_SESSION": {
-         "description": "Telethon Based String Session (2nd ID) [ From https://repl.it/@SpEcHiDe/GenerateStringSession ]",
-         "required": false,
-         "value": ""
+"env": {
+  "TOKEN": {
+    "description": "Your bot token. Get one from @BotFather duh",
+    "required": true,
+    "value": ""
+  },
+  "API_ID": {
+    "description": "Get API_ID from (link unavailable), used for telethon based modules.",
+    "required": true,
+    "value": "16201672"
+  },
+  ...
+  "TZ": {
+    "description": "Time zone",
+    "required": true,
+    "value": "Asia/Kolkata"
+  },
+  "STRING_SESSION": {
+    "description": "Telethon Based String Session (2nd ID) [ From (link unavailable) ]",
+    "required": false,
+    "value": ""
+  },
+  ...
+}
      },
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
