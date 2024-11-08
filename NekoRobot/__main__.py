@@ -102,7 +102,7 @@ PM_START_TEXT = """
 """
 
 buttons = [
-    [
+[
         InlineKeyboardButton(
             text=f" {BOT_NAME} ✨ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✨",
             url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
@@ -123,7 +123,6 @@ buttons = [
         ),
     ],
 ]
-
 HELP_STRINGS = """
 *ʜᴇʀᴇ ʏᴏᴜ ᴡɪʟʟ ғɪɴᴅ ᴀ ʟɪsᴛ ᴏғ ᴀʟʟ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs*\n\nAʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
 """
