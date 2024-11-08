@@ -89,15 +89,15 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-━━━━━━━「 [{}](https://telegra.ph/file/a62691b55fd6bb41b053b.jpg) 」━━━━━━━
+━━━━━「 [{}](https://telegra.ph/file/a62691b55fd6bb41b053b.jpg) 」━━━━━
 *ʜᴇʟʟᴏ 🥀 {},*
-━━━━━━━━━━━━━━━━━━━━━━━━
-┏━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━
+┏━━━━━━━━━━━━━━━━━━━━━
 ┃ *ᴜᴘᴛɪᴍᴇ:* {}
  ⦾
 ┃ {} *ᴜsᴇʀs, ᴀᴄʀᴏss𝑠* {} *ᴄʜᴀᴛs.*
-┗━━━━━━━━━━━━━━━━━━━━━━━
-━━━━━━━━━━━━━━━━━━━━━━━━
+┗━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━
 *I'ᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴡsᴏᴍᴇ ᴀɴᴅ  ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs ♪ [ɴᴏ ᴀᴅs]*
 """
 
@@ -111,7 +111,7 @@ buttons = [
     [
         InlineKeyboardButton(text="⛩ ᴄᴏᴍᴍᴀɴᴅs ⛩", callback_data="help_back"),
         InlineKeyboardButton(
-            text="♪ ᴍᴜsɪᴄ ♪", url="https://t.me/about_your_shiv"
+            text="♪ ᴍᴜsɪᴄ ♪", callback_data="help_back"),
         ),
     ],
     [
