@@ -142,7 +142,7 @@ class Config(object):
     CASH_API_KEY = (
         "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = "JNLY2QMHJFQT"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
