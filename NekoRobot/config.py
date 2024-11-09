@@ -18,7 +18,7 @@ class Config(object):
     API_HASH = "55f85061314c2c0f6edeec9751b90913"
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = "12345abc6"
-    OWNER_ID = 5686536025  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = 7000125824  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "ll_tso_king_ll"
     SUPPORT_CHAT = "tso_chats"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
@@ -98,7 +98,7 @@ class Config(object):
     API_ID = 16201672  # integer value, dont use ""
     API_HASH = "55f85061314c2c0f6edeec9751b90913"
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID =  5686536025 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = 7000125824 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "ll_tso_king_ll"
     SUPPORT_CHAT = "tso_chats"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
