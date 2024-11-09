@@ -84,7 +84,7 @@ def new_fed(update: Update, context: CallbackContext):
         x = sql.new_fed(user.id, fed_name, fed_id)
         if not x:
             update.effective_message.reply_text(
-                "Can't federate! Please contact @HuntersAssociations if the problem persist."
+                "Can't federate! Please contact @SMT_OFFICIAL_FED if the problem persist."
             )
             return
 
@@ -239,7 +239,7 @@ def join_fed(update: Update, context: CallbackContext):
         x = sql.chat_join_fed(args[0], chat.title, chat.id)
         if not x:
             message.reply_text(
-                "Failed to join federation! Please contact @OnePunchSupport should this problem persist!"
+                "Failed to join federation! Please contact @SMT_OFFICIAL_COUNCIL should this problem persist!"
             )
             return
 
@@ -627,7 +627,7 @@ def fed_ban(update: Update, context: CallbackContext):
         )
         if not x:
             message.reply_text(
-                "Failed to ban from the federation! If this problem continues, contact @OnePunchSupport."
+                "Failed to ban from the federation! If this problem continues, contact @SMT_OFFICIAL_COUNCIL"
             )
             return
 
@@ -785,7 +785,7 @@ def fed_ban(update: Update, context: CallbackContext):
     )
     if not x:
         message.reply_text(
-            "Failed to ban from the federation! If this problem continues, contact @HuntersAssociations."
+            "Failed to ban from the federation! If this problem continues, contact @@SMT_OFFICIAL_FED."
         )
         return
 
@@ -1173,7 +1173,7 @@ def set_frules(update: Update, context: CallbackContext):
         x = sql.set_frules(fed_id, markdown_rules)
         if not x:
             update.effective_message.reply_text(
-                "Whoa! There was an error while setting federation rules! If you wondered why please ask it in @OnePunchSupport !"
+                "Whoa! There was an error while setting federation rules! If you wondered why please ask it in @SMT_OFFICIAL_COUNCIL !"
             )
             return
 
