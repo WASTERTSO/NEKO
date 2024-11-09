@@ -19,7 +19,7 @@ def ud(update: Update, context: CallbackContext):
     message.reply_text(reply_text, parse_mode=ParseMode.MARKDOWN)
 
 
-UD_HANDLER = DisableAbleCommandHandler(["ud"], ud, run_async=True)
+UD_HANDLER = DisableAbleCommandHandler(["ud"], ud, run_async=False)
 
 NEKO_PTB.add_handler(UD_HANDLER)
 
