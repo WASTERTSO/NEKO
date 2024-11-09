@@ -111,8 +111,8 @@ buttons = [
     [
         InlineKeyboardButton(text="⛩ ᴄᴏᴍᴍᴀɴᴅs ⛩", callback_data="help_back"),
         InlineKeyboardButton(
-            text="♪ ᴍᴜsɪᴄ ♪", url=f""),
-        ),
+            text="♪ ᴍᴜsɪᴄ ♪", callback_data="settings_back_helper"),
+        
     ],
     [
         InlineKeyboardButton(
