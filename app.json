@@ -119,7 +119,7 @@
 ,
 "WOLVES": {
 "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-"
+
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
