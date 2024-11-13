@@ -116,57 +116,58 @@
 "description": "A space separated list of user IDs who you wanna assign as tiger users.",
 "required": false,
 "value": "7000125824"
-,
+},
 "WOLVES": {
 "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-
-      },
-      "ENV": {
-         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
-         "value": "ANYTHING"
-      },
-      "WEBHOOK": {
-         "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
-         "required": false,
-         "value": ""
-      },
-      "PORT": {
-         "description": "Port to use for your webhooks. Better leave this as it is on heroku",
-         "required": false,
-         "value": ""
-      },
-      "URL": {
-         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
-         "value": ""
-      },
-      "No_LOAD": {
-         "description": "Dont load these modules cause they shit, space separation",
-         "required": false,
-         "value": ""
-      }, 
-      "BL_CHATS": {
-         "description": "List of chats you want blacklisted.",
-         "required": false,
-         "value": ""
-      },
-      "ALLOW_EXCL": {
-         "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
-         "value": "True"
-      },
-      "DONATION_LINK": {
-         "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it",
-         "required": false,
-         "value": "t.me/tso_king"
-      },
-      "DEL_CMDS": {
-         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
-         "value": "True"
-      },
-      "WALL_API": {
-         "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
-         "required": false,
-         "value": ""
+"required": false,
+"value": ""
+},
+"ENV": {
+"description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+"value": "ANYTHING"
+},
+"WEBHOOK": {
+"description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
+"required": false,
+"value": ""
+},
+"PORT": {
+"description": "Port to use for your webhooks. Better leave this as it is on heroku",
+"required": false,
+"value": ""
+},
+"URL": {
+"description": "The Heroku App URL :- https://<appname>.(link unavailable)",
+"required": false,
+"value": ""
+},
+"No_LOAD": {
+"description": "Dont load these modules cause they shit, space separation",
+"required": false,
+"value": ""
+}, 
+"BL_CHATS": {
+"description": "List of chats you want blacklisted.",
+"required": false,
+"value": ""
+},
+"ALLOW_EXCL": {
+"description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
+"value": "True"
+},
+"DONATION_LINK": {
+"description": "Optional: link where you would like to receive donations. If you are a noob, better leave it",
+"required": false,
+"value": "t.me/tso_king"
+},
+"DEL_CMDS": {
+"description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+"value": "True"
+},
+"WALL_API": {
+"description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
+"required": false,
+y"value": ""
       }
       
    }
