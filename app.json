@@ -167,7 +167,7 @@
 "WALL_API": {
 "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
 "required": false,
-y"value": ""
+"value": ""
       }
       
    }
